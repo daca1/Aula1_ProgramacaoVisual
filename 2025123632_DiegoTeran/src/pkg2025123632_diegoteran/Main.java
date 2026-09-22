@@ -31,7 +31,31 @@ public class Main {
         System.out.println("Numero do utente2 : "+utente2.getNumero() );
         System.out.println("Diaria do utente2 : "+utente2.getDIARIA() );
 
+        
+        
+            /*____________________________________*/
+
+        
+        System.out.println("\n2025123632 Nivel 2 - Composição");
+        
+        
+        System.out.println("\n2025123632 Nível 2 – Composição");
+
+        Autocaravana ac1 = new Autocaravana("XX-11-YY", utente1);
+
+        System.out.println("Matricula ac1: " + ac1.getMatricula());
+        System.out.println("Condutor ac1: " + ac1.getCondutor());
+
+        ac1.setMatricula("ZZ-99-ZZ");
+        ac1.setCondutor(utente2);
+        System.out.println("Matricula ac1 (após set): " + ac1.getMatricula());
+        System.out.println("Condutor ac1 (após set): " + ac1.getCondutor());
+        
+        
+        
     }
+    
+    
     
     
     
